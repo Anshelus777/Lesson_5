@@ -70,13 +70,17 @@ ul.menu-list li {
 	color: #222831;
 }
 
-ul li.menu__link2 {
+ul span.menu__link2 {
 	margin: 0px 0px 0px 75px;
 	display: inline-block;
 }
 
-ul li.menu__link3 {
+ul span.menu__link3 {
 	display: inline-block;
+	margin: 0px 0px 0px 0px;
+}
+
+span.sign__in li {
 	margin: 0px 0px 0px 0px;
 }
 
@@ -116,12 +120,12 @@ ul li.menu__link3 {
 	align-items: center;
 }
 
-ul li.menu__logo {
+ul span.menu__logo {
 	display: inline-block;
 	margin: 0px 138px 0px 0px;
 }
 
-li.menu__logo a.menu-logo {
+span.menu__logo a.menu-logo {
 	font-family: Playfair Display;
 	font-style: normal;
 	font-weight: bold;
