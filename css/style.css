@@ -70,13 +70,14 @@ ul.menu-list li {
 	color: #222831;
 }
 
-ul p.menu__link2 {
+ul li.menu__link2 {
 	margin: 0px 0px 0px 75px;
 	display: inline-block;
 }
 
-ul p.menu__link3 {
+ul li.menu__link3 {
 	display: inline-block;
+	margin: 0px 0px 0px 0px;
 }
 
 .menu-list a.menu-link2 {
@@ -115,12 +116,12 @@ ul p.menu__link3 {
 	align-items: center;
 }
 
-ul p.menu__logo {
+ul li.menu__logo {
 	display: inline-block;
 	margin: 0px 138px 0px 0px;
 }
 
-p.menu__logo a.menu-logo {
+li.menu__logo a.menu-logo {
 	font-family: Playfair Display;
 	font-style: normal;
 	font-weight: bold;
@@ -129,42 +130,42 @@ p.menu__logo a.menu-logo {
 	color: #10375c;
 }
 /*=====================MAIN=====================*/
-		.introducing {
-			width: 190px;
-			margin: 105px 0px 0px 280px;
-			padding: 0px 87px 0px 0px;
-			display: block;
-			text-align: center;
-			overflow: hidden;
-		}
+.introducing {
+	width: 190px;
+	margin: 105px 0px 0px 280px;
+	padding: 0px 87px 0px 0px;
+	display: block;
+	text-align: center;
+	overflow: hidden;
+}
 
-		.introducing span {
-			font-family: Lato;
-			font-style: normal;
-			font-weight: 500;
-			font-size: 20px;
-			line-height: 30px;
-			color: #222831;
-		}
+.introducing span {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	color: #222831;
+}
 
-		.introducing > span {
-			position: relative;
-			display: inline-block;
-		}
+.introducing > span {
+	position: relative;
+	display: inline-block;
+}
 
-		.introducing > span:after {
-			content: "";
-			position: absolute;
-			top: 50%;
-			width: 73px;
-			height: 2px;
-			background: #222831;
-		}
+.introducing > span:after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	width: 73px;
+	height: 2px;
+	background: #222831;
+}
 
-		.introducing > span:after {
-			left: 100%;
-			margin-left: 15px;
-		}
+.introducing > span:after {
+	left: 100%;
+	margin-left: 15px;
+}
 
 div.primary {
 	width: 1110px;
@@ -220,99 +221,97 @@ div.block {
 	height: 459px;
 	padding: 0px 0px 0px 0px;
 	margin: 64px 0px 0px 0px;
-	background-color: #10375C;
+	background-color: #10375c;
 	position: absolute;
 }
 
 h2.title__form {
-font-family: Lora;
-font-style: normal;
-font-weight: bold;
-font-size: 34px;
-line-height: 44px;
-color: #FFFFFF;
-margin: 42px 72px 29px 40px;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 44px;
+	color: #ffffff;
+	margin: 42px 72px 29px 40px;
 }
 
-p.location, p.type, p.date {
-font-family: Lato;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-color: #FFFFFF;
-opacity: 0.35;
-position:absolute;
-margin: 8px 0px 0px 16px;
+p.location,
+p.type,
+p.date {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	color: #ffffff;
+	opacity: 0.35;
+	position: absolute;
+	margin: 8px 0px 0px 16px;
 }
 
-p.field1, p.field2, p.field3 {
-font-family: Lato;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-color: #FFFFFF;
-position: absolute;
-margin: 34px 0px 0px 16px;
+p.field1,
+p.field2,
+p.field3 {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	color: #ffffff;
+	position: absolute;
+	margin: 34px 0px 0px 16px;
 }
 
-					p.location {
-					width: 61px;
-					height: 26px;
-					}
+p.location {
+	width: 61px;
+	height: 26px;
+}
 
-					p.type {
-					width: 34px;
-					height: 26px;
-					}
+p.type {
+	width: 34px;
+	height: 26px;
+}
 
-					p.date {
-					width: 35px;
-					height: 26px;
-					}
+p.date {
+	width: 35px;
+	height: 26px;
+}
 
-					p.field1 {
-					width: 128px;
-					height: 26px;
-					}
+p.field1 {
+	width: 128px;
+	height: 26px;
+}
 
-					p.field2 {
-					width: 98px;
-					height: 26px;
-					}
+p.field2 {
+	width: 98px;
+	height: 26px;
+}
 
-					p.field3 {
-					width: 82px;
-					height: 26px;
-					}
+p.field3 {
+	width: 82px;
+	height: 26px;
+}
 
 ul.form__field li {
-background-color: #0D2C4A;
-margin: 0px 40px 17px 40px;
-width: 365px;
-height: 68px;
+	background-color: #0d2c4a;
+	margin: 0px 40px 17px 40px;
+	width: 365px;
+	height: 68px;
 }
 
 p.form__button {
-font-family: Lato;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 28px;
-color: #FFFFFF;
-background: #FF5722;
-width: 363px;
-height: 53px;
-padding: 12.5px 114px 12.5px 114px;
-margin: 22px 42px 31px 40px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 28px;
+	color: #ffffff;
+	background: #ff5722;
+	width: 363px;
+	height: 53px;
+	padding: 12.5px 114px 12.5px 114px;
+	margin: 22px 42px 31px 40px;
 }
-
-
-
-
-
-
 
 /*=====================TEST (ПЫТАЮСЬ СДЕЛАТЬ В 1 БЛОКЕ <div> В СТРОКУ 2 БЛОКА, А ИМЕННО ТЕГИ <h1> и <p>) =====================*/
 /* УДАЧНЫЙ РЕЗУЛЬТАТ ТЕСТА!
@@ -389,9 +388,6 @@ none - временно удаляет элемент из документа. �
 так, словно элемента и не было.
 */
 
-
-
-
 /*
 box-sizing
 применяется для изменения алгоритма расчета ширины и высоты элемента.
@@ -463,47 +459,47 @@ display:
 —войство не наследуется.
 */
 
-	/*
+/*
 	padding-top: 20px;
 	padding-right: 10px;
 	padding-bottom: 30px;
 	padding-left: 50px;
 	*/
-	/* padding: 20px 10px 30px 50px;*/
+/* padding: 20px 10px 30px 50px;*/
 
-	/* Для всех сторон 30 */
-	/* padding:  30px; */
+/* Для всех сторон 30 */
+/* padding:  30px; */
 
-	/* Сверху\снизу 50. слева\справа 30 */
-	/* padding: 50px 30px; */
+/* Сверху\снизу 50. слева\справа 30 */
+/* padding: 50px 30px; */
 
-	/* Сверху 50, слева\справа 30, снизу 10 */
-	/* padding: 50px 30px 10px; */
+/* Сверху 50, слева\справа 30, снизу 10 */
+/* padding: 50px 30px 10px; */
 
-	/*
+/*
 	margin-top: 20px;
 	margin-right: 10px;
 	margin-bottom: 30px;
 	margin-left: 50px;
 	*/
-	/* margin: 20px 10px 30px 50px;*/
+/* margin: 20px 10px 30px 50px;*/
 
-	/* Для всех сторон 30 */
-	/* margin: 30px; */
+/* Для всех сторон 30 */
+/* margin: 30px; */
 
-	/* Сверху\снизу 50. слева\справа 30 */
-	/* margin: 50px 30px; */
+/* Сверху\снизу 50. слева\справа 30 */
+/* margin: 50px 30px; */
 
-	/* Сверху 50, слева\справа 30, снизу 10 */
-	/* margin: 50px 30px 10px; */
+/* Сверху 50, слева\справа 30, снизу 10 */
+/* margin: 50px 30px 10px; */
 
-	/* Больше можна, меньше нет */
-	/*
+/* Больше можна, меньше нет */
+/*
 	min-width: 500px;
 	min-height: 100px;
 	*/
-	/* Меньше можна, больше нет */
-	/*
+/* Меньше можна, больше нет */
+/*
 	max-width: 500px;
 	max-height: 100px;
 	*/
